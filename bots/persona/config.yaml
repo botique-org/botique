@@ -1,0 +1,6 @@
+# The introduction message that sets the personality for the bot.
+intro: "You are a friendly AI assistant ready to help."
+
+# The language model provider to use.
+# Options might include "gpt", "deepseek", etc.
+llm_provider: "deepseek"
