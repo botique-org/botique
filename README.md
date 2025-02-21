@@ -1,6 +1,6 @@
 # Botique
 
-Botique (Bot Boutique!) is a project we started out of our shared interest in building and sharing bots. While it’s not a fully mature framework yet, it brings together some useful examples and common components—like standardized I/O and deployment helpers—that you can use as building blocks for your own AI-powered bots.
+Botique (Bot Boutique!) is a project we started out of our shared interest in building and sharing AI bots. While it’s not a fully mature framework yet, it brings together some useful examples and common components—like standardized I/O and deployment helpers—that you can use as building blocks for your own AI-powered bots.
 
 We noticed that finding and keeping useful bots can be a challenge. Many AI bots either end up abandoned or aren’t leveraging AI effectively. With Botique, our goal is to create a community space where developers can share their bot examples, learn from each other’s components, and gradually build up a set of common tools to make bot development easier.
 
