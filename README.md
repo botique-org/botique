@@ -23,7 +23,7 @@ Feel free to use, modify, and share this project as you see fit.
 
 ## Installation
 
-1. **Clone the repository:**
+1. **Fork & Clone the repository:**
 
  ```bash
      git clone https://github.com/yourusername/botique.git
@@ -63,11 +63,11 @@ python main.py --platform discord --bot persona --bot_token YOUR_DISCORD_BOT_TOK
 ### Available Command-Line Arguments
 
 | Argument       | Description                                        | Default       |
-|---------------|----------------------------------------------------|--------------|
-| `--platform`  | The platform to deploy the bot on (`telegram` or `discord`). | N/A  |
-| `--bot`       | The bot type to use (`persona`, `search`, etc.).   | N/A  |
-| `--bot_token` | The bot's authentication token (required).        | N/A         |
-| `--config`    | Path to the YAML configuration file.             | `bots/{bot_type}/config.yaml` |
+|-----------------|----------------------------------------------------|--------------|
+| `--platform`    | The platform to deploy the bot on (`telegram` or `discord`). | N/A  |
+| `--bot`         | The bot type to use (`persona`, `search`, etc.).   | N/A  |
+| `--bot_token`   | The bot's authentication token (required).        | N/A         |
+| `--config`      | Path to the YAML configuration file.             | `bots/{bot_type}/config.yaml` |
 
 ## Contributing
 
