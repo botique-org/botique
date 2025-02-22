@@ -3,4 +3,4 @@ intro: "You are a friendly AI assistant ready to help."
 
 # The language model provider to use.
 # Options might include "gpt", "deepseek", etc.
-llm_provider: "deepseek"
+llm_provider: "gpt"

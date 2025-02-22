@@ -47,12 +47,14 @@ Once installed, you can run different bots on different platforms using command-
 ### Running Bot on Telegram 
 
 ```bash
+export OPENAI_API_KEY=YOUR_OPENAI_API_KEY
 python main.py --platform telegram --bot persona --bot_token YOUR_TELEGRAM_BOT_TOKEN
 ```
 
 ### Running Bot on Discord
 
 ```bash
+export OPENAI_API_KEY=YOUR_OPENAI_API_KEY
 python main.py --platform discord --bot persona --bot_token YOUR_DISCORD_BOT_TOKEN
 ```
 

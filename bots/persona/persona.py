@@ -3,11 +3,10 @@ from openai import OpenAI
 
 
 class Persona:
-    def __init__(self, config: dict, bot_token: str, user_id: any = None):
+    def __init__(self, config: dict, bot_token: str):
         self.intro = config.get("intro", "You are a helpful assistant.")
         self.llm_provider = config.get("llm_provider", "gpt")
         self.bot_token = bot_token
-        self.user_id = user_id
         self.history = []  # List of {"role": str, "content": str}
 
     def add_to_history(self, role: str, content: str):
@@ -42,6 +41,6 @@ class Persona:
             print(f"Error generating response: {e}")
             return "Something went wrong, please try again later."
 
-    def process_message(self, message: str) -> str:
+    def process_message_text(self, message: str) -> str:
         self.add_to_history("user", message)
         return self.generate_response()

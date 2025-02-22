@@ -1,7 +1,7 @@
 import argparse
 from bot_registry import get_bot
-from telegram_bot import TelegramBot
-from discord_bot import DiscordBot
+from platforms.telegram_bot import TelegramBot
+from platforms.discord_bot import DiscordBot
 import bots  # Register all bots here
 import yaml
 from dotenv import load_dotenv

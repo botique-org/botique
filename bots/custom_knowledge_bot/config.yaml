@@ -1,0 +1,5 @@
+knowledge_urls:
+  - https://research.google/blog/accelerating-scientific-breakthroughs-with-an-ai-co-scientist/
+file_paths:
+  - bots/custom_knowledge_bot/test_file.pdf
+  - bots/custom_knowledge_bot/test_file.txt

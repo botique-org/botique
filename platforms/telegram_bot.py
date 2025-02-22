@@ -23,11 +23,11 @@ class TelegramBot:
     ) -> None:
         await update.message.reply_text("Available commands: /start, /help")
 
-    async def handle_message(
+    async def handle_message_text(
         self, update: Update, context: ContextTypes.DEFAULT_TYPE
     ) -> None:
         user_text = update.message.text
-        response = self.bot_instance.process_message(user_text)
+        response = self.bot_instance.process_message_text(user_text)
         await update.message.reply_text(response)
 
     def run(self):
@@ -35,6 +35,6 @@ class TelegramBot:
         app.add_handler(CommandHandler("start", self.start))
         app.add_handler(CommandHandler("help", self.help_command))
         app.add_handler(
-            MessageHandler(filters.TEXT & ~filters.COMMAND, self.handle_message)
+            MessageHandler(filters.TEXT & ~filters.COMMAND, self.handle_message_text)
         )
         app.run_polling(allowed_updates=Update.ALL_TYPES)
